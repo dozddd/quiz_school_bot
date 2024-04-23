@@ -1,1 +1,1 @@
-# quiz_school_bot
+Чат-бот викторина в Telegram. 
