@@ -1,1 +1,2 @@
-BOT_TOKEN = '6355008924:AAE6pxZfpUaUaEmU5l7x_1rmixuAo_Y3234'
+BOT_TOKEN = '' 
+# токен удалён
