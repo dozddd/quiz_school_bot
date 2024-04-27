@@ -90,10 +90,8 @@ async def bio(callback: types.CallbackQuery):
         await callback.answer()
         return
 
-    # Получаем следующий вопрос
     next_q = questions_bio_10[next_index]
 
-    # Задаем этот вопрос
     await callback.message.edit_text(
         next_q.q_text,
         reply_markup=next_q.to_inline_keyboard(f"answer_bio_10_{next_index}")
